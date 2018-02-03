@@ -16,3 +16,4 @@ After running the setup.sh script you can use:
 * _deactivate_ - to deactivate the python3 virtualenv if necessary
 * _./migrate.sh_ - to migrate db if you have made any changes to the models/db schema
 * _./runserver.sh_ - to run the back-end server locally
+* _python3 manage.py createsuperuser_ - to create an admin user

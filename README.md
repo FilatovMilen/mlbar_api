@@ -13,5 +13,6 @@ The _setup.sh_ script sets up a new virtualenv, installs dependencies in _requir
 After running the setup.sh script you can use:
 
 * _source /lib/bin/activate_ - to activate the python3 virtualenv
+* _deactivate_ - to deactivate the python3 virtualenv if necessary
 * _./migrate.sh_ - to migrate db if you have made any changes to the models/db schema
 * _./runserver.sh_ - to run the back-end server locally
